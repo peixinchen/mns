@@ -1,0 +1,19 @@
+{
+    "name": "aliyun/mns",
+    "description": "阿里云MNS的PHP版SDK, The PHP SDK for Aliyun MNS",
+    "require": {
+        "guzzle/http": "^3.9",
+        "psr/http-message": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "chenpeixin",
+            "email": "chenpeixin@renrenche.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src/"
+        }
+    }
+}
