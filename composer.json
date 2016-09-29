@@ -3,7 +3,7 @@
     "description": "阿里云MNS的PHP版SDK, The PHP SDK for Aliyun MNS",
     "license": "MIT",
     "require": {
-        "guzzle/http": "^3.9",
+        "guzzlehttp/guzzle": "^6.2.1",
         "psr/http-message": "^1.0"
     },
     "authors": [
