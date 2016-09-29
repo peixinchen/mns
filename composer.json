@@ -1,6 +1,7 @@
 {
     "name": "peixinchen/mns",
     "description": "阿里云MNS的PHP版SDK, The PHP SDK for Aliyun MNS",
+    "keywords": ["aliyun", "mns", "queue"],
     "license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "^6.2.1",
@@ -8,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "chenpeixin",
-            "email": "chenpeixin@renrenche.com"
+            "name": "peixinchen",
+            "email": "peixinchen@foxmail.com"
         }
     ],
     "autoload": {
@@ -17,6 +18,10 @@
             "AliyunMNS\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    },
+    "minimum-stability": "dev"
 }
