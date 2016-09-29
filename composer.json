@@ -1,7 +1,7 @@
 {
     "name": "peixinchen/mns",
     "description": "阿里云MNS的PHP版SDK, The PHP SDK for Aliyun MNS",
-    "lisence": "MIT",
+    "license": "MIT",
     "require": {
         "guzzle/http": "^3.9",
         "psr/http-message": "^1.0"
@@ -16,5 +16,7 @@
         "psr-4": {
             "AliyunMNS\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
