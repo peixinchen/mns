@@ -1,5 +1,5 @@
 {
-    "name": "aliyun/mns",
+    "name": "peixinchen/mns",
     "description": "阿里云MNS的PHP版SDK, The PHP SDK for Aliyun MNS",
     "require": {
         "guzzle/http": "^3.9",
